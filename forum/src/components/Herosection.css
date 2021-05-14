@@ -10,7 +10,16 @@ video {
       margin-left: -.5rem;
       
   }
-  
+  .Cards{
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    /* height: 100%; */
+  }
+  .CardItem{
+    width: 100px;
+    
+  }
   .Herosection {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
     height: 100vh;
@@ -36,5 +45,22 @@ video {
     
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  .tagline {
+    font-size: 40px;
+    margin-top: -2%;
+    color: #fff;
+    text-align: center;
+    animation: tagline 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes tagline {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e632a1, 0 0 40px #00e686, 0 0 50px #00e63a, 0 0 60px #00e61f, 0 0 70px #00e67b;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #00e632a1, 0 0 40px #00e686, 0 0 50px #00e63a, 0 0 60px #00e61f, 0 0 70px #00e67b;;
     }
   }
