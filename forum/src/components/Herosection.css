@@ -27,7 +27,7 @@ video {
     color: #fff;
     text-align: center;
     animation: glow 1s ease-in-out infinite alternate,
-                MoveUpDown 1s linear infinite;
+                MoveUpDown 1s ease-in-out infinite;
   }
   
   @keyframes glow {
@@ -40,17 +40,6 @@ video {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }
-  @keyframes MoveUpDown {
-    0%{
-      text-align: left;
-    }
-    50%{
-      text-align: center;
-    }
-    100%{
-      text-align: right;
-    }
-    
-  }
+  
   
   

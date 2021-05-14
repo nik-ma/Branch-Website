@@ -8,6 +8,7 @@ function Herosection() {
         </div>
         <h1 className="glow">Samnavay 21</h1>
         {/* <h1 className="tagline">We are together</h1> */}
+        
         </>
     )
 }
