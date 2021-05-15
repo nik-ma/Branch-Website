@@ -27,16 +27,19 @@ video {
     }
   .CardItem{
     align-content: center;
-    
     padding: 1rem;
   }
 
  .imging{
    width: 26rem;
    height:32rem;
+   border-radius: 10%;
+   
  }
  .imging:hover{
   transform: scale(1.05);
+  
+  
  }
 
   .Herosection {
