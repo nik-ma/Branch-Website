@@ -1,18 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Herosection.css'
 function Herosection() {
     return (
         <>
+        <video src='video-2.mp4'  autoPlay loop muted />
         <div className="heroContainer">
-            
-        {/* <video src='video-2.mp4'  autoPlay loop muted /> */}
+
+        
         <h1 className="glow">Samnavay 21</h1>
         <h1 className="tagline">Your limitation-it's only your imagination</h1>
-        
+        </div>
         
         <div className="Cards">
             <div className="CardItem">
-                <img className="imging" src="electronics.jpg" alt="electronics"  />
+               <Link to='/competitions'> <img className="imging" src="background.jpg" alt="electronics"  /></Link>
                     
             </div>
             <div className="CardItem">
@@ -29,7 +31,7 @@ function Herosection() {
                     
             </div>
         </div>
-        </div>
+        
         
         </>
     )

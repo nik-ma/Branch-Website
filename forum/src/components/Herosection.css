@@ -10,29 +10,30 @@ video {
     margin-top: 2rem;
   }
   .heroContainer{
-      margin-left: -.5rem;
+     margin-top: 10rem;
+     margin-bottom: 4rem;
       
       
   }
   .Cards{
      
-
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 10rem;
-    justify-content: space-around;
+    display: grid;
+    margin-top: 10rem;
+    grid-template-columns: repeat(2,auto);
+    justify-content: center;
     height: fit-content;
+    
 
     }
   .CardItem{
     align-content: center;
-    flex: 40%;
-    padding: 1%;
+    
+    padding: 1rem;
   }
 
  .imging{
-   width: 30rem;
-   height: 35rem;
+   width: 26rem;
+   height:32rem;
  }
  .imging:hover{
   transform: scale(1.05);
@@ -71,12 +72,12 @@ video {
     font-size: 40px;
 
     /* margin-top: -2%; */
-    color: #fff;
+    color:lightcyan;
     text-align: center;
-    animation: tagline 1s ease-in-out infinite alternate;
+    /* animation: tagline 1s ease-in-out infinite alternate; */
   }
   
-  @keyframes tagline {
+  /* @keyframes tagline {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e632a1, 0 0 40px #00e686, 0 0 50px #00e63a, 0 0 60px #00e61f, 0 0 70px #00e67b;
     }
@@ -84,4 +85,4 @@ video {
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #00e632a1, 0 0 40px #00e686, 0 0 50px #00e63a, 0 0 60px #00e61f, 0 0 70px #00e67b;;
     }
-  }
+  } */
