@@ -1,7 +1,7 @@
 .inner-footer{
-    padding: 10px;
-    background-color: #272727;
-    margin: 0;
+    
+    background-color: #3f3f3f;
+    
     
     
 }
@@ -10,22 +10,64 @@
 }
 .social-links ul{
     display: flex;
-    width: 700px;
+    width: 600px;
     height: 30px;
     margin:auto;
 }
 .social-items{
     list-style: none;
 }
-.social-items a{
-    padding:10px 70px;
-    font-size: 35px;
-    color: #6cccc6;
+.social-items1 a{
+    padding:10px 40px;
+    font-size: 45px;
+    color: white;
+    transition:  all 0.5s;
+   
+}
+.social-items2 a{
+    padding:10px 40px;
+    font-size: 45px;
+    color: white;
     transition:  all 0.5s;
 }
-.social-items a:hover{
-    color: #eb5858;
+.social-items3 a{
+    padding:10px 40px;
+    font-size: 45px;
+    color: white;
+    transition:  all 0.5s;
 }
+.social-items4 a{
+    padding:10px 40px;
+    font-size: 45px;
+    color: white;
+    transition:  all 0.5s;
+}
+.social-items5 a{
+    padding:10px 40px;
+    font-size: 45px;
+    color: white;
+    transition:  all 0.5s;
+}
+
+
+.social-items1 a :hover{
+    color: #3b5998;
+    
+    
+}
+.social-items2 a :hover{
+    color: #00acee;
+}
+.social-items3 a :hover{
+    color:  #ac3354;
+}
+.social-items4 a :hover{
+    color: #0077b5;
+}
+.social-items5 a :hover{
+    color: #e2211b;
+}
+
 .outer-footer{
     padding: 10px;
     text-align: center;
@@ -39,6 +81,6 @@
 
 }
 #image{
-    height: 40 px;
-    width: auto;
+    height: 10 px;
+    width: 70px;
 }

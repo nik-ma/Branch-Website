@@ -34,13 +34,14 @@ video {
    width: 26rem;
    height:32rem;
    border-radius: 10%;
-   
+   transition: transform 1100ms ease;
  }
  .imging:hover{
-  transform: scale(1.05);
   
-  
+  transform: scale(1.08);
  }
+ 
+
 
   .Herosection {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
