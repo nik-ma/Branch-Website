@@ -1,0 +1,22 @@
+.Main-container{
+    display: flex;
+    margin-top: 6rem;
+    justify-content: center;
+}
+.title{
+    font-size: 60px;
+    margin:0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 0px #00cbe6, 0 0 0px #00cbe6, 0 0 0px #00cbe6, 0 0 0px #00cbe6, 0 0 0px #00cbe6;
+}
+.imaging1{
+    width: 25rem;
+   height:22rem;
+   border-radius: 10%;
+   transition: transform 1000ms ease;
+}
+.imaging1:hover{
+    transform: scale(1.09);
+}

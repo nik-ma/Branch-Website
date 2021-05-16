@@ -4,6 +4,9 @@ import './Herosection.css'
 function Herosection() {
     return (
         <>
+        var imageUrl=["/competitions","/competitions","/competitions","/competitions"];
+        var imageLinks=["background.jpg","robot.jpg","contact.jpg","alumni.jpg"]
+
         <video src='video-2.mp4'  autoPlay loop muted />
         <div className="heroContainer">
 
@@ -13,6 +16,7 @@ function Herosection() {
         </div>
         
         <div className="Cards">
+
             <div className="CardItem">
                <Link to='/competitions'> <img className="imging" src="background.jpg" alt="electronics"  /></Link>
                     

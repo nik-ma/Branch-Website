@@ -4,8 +4,8 @@
     height: 80px;
     display: flex;
     margin-top: -.5rem;
-    width: 105%;
-    margin-left: -.5rem;
+    width: 100%;
+    
     justify-content: space-between;
     align-items: center;
     font-size: 1.2rem;
