@@ -5,7 +5,7 @@ function Footer() {
     
     return (
             <>
-            <hr></hr>
+            
             <footer class="footer">
                 <div class="inner-footer">
                     <div class="social-links">

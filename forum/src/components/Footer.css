@@ -1,14 +1,17 @@
 .footer{
-    margin-bottom: -0.5rem;
+    
+    margin-bottom: 0rem;
+    
 }
 .inner-footer{
-    
+    padding-top: 1 rem;
     background-color: #3f3f3f;
     
     
     
 }
 .social-links{
+    
     display: flex;
 }
 .social-links ul{
@@ -16,11 +19,14 @@
     width: 600px;
     height: 30px;
     margin:auto;
+    list-style: none;
 }
 .social-items{
+    
     list-style: none;
 }
 .social-items1 a{
+    list-style: none;
     padding:10px 40px;
     font-size: 45px;
     color: white;
@@ -32,6 +38,7 @@
     font-size: 45px;
     color: white;
     transition:  all 0.5s;
+
 }
 .social-items3 a{
     padding:10px 40px;
@@ -84,6 +91,6 @@
 
 }
 #image{
-    height: 10 px;
-    width: 70px;
+    height: 20 px;
+    width: 80px;
 }
