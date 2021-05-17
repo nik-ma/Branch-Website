@@ -50,7 +50,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Competitions
+                Events
               </Link>
             </li>
             <li className='nav-item'>

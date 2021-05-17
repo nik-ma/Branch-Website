@@ -7,7 +7,7 @@ function competitions() {
         <>
         <div className="Main-container">
             <h1 className="title">
-                COMPETITIONS
+                EVENTS
             </h1>
             
         </div>
