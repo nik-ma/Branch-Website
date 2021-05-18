@@ -1,11 +1,11 @@
 .footer{
-    
+    padding-top:5rem;
     margin-bottom: 0rem;
     
 }
 .inner-footer{
-    padding-top: 1 rem;
-    background-color: #3f3f3f;
+    padding-top: 20px;
+    background-color: #0e0202;
     
     
     
@@ -77,20 +77,26 @@
 .social-items5 a :hover{
     color: #e2211b;
 }
+#image1{
+    padding-top: 10px;
+    text-align:left;
+    padding-left: 80px;
+    padding-bottom: 10px;
 
+}
+#image2{
+    padding-top: 10px;
+    float:right;
+    padding-right: 80px;
+    padding-bottom: 10px;
+
+}
 .outer-footer{
     padding: 10px;
     text-align: center;
     color: white;
     font-size: 18px;
+    
     background-color: #3f3f3f;
 }
-.logo{
-    padding-top: 30px;
-    text-align: center;
 
-}
-#image{
-    height: 20 px;
-    width: 80px;
-}

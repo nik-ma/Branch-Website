@@ -18,20 +18,20 @@ function Herosection() {
         <div className="Cards">
 
             <div className="CardItem">
-               <Link to='/competitions'> <img className="imging" src="background.jpg" alt="electronics"  /></Link>
+               <Link to='/competitions'> <img className="imging" src="event (2).jpg" alt="electronics"  /></Link>
                     
             </div>
             <div className="CardItem">
-                <img className="imging" src="robot.jpg" alt="electronics"  />
+                <img className="imging" src="third (2).jpg" alt="electronics"  />
                     
             </div>
             
             <div className="CardItem">
-                <img className="imging" src="contact.jpg" alt="electronics"  />
+                <img className="imging" src="contact (2).jpg" alt="electronics"  />
                     
             </div>
             <div className="CardItem">
-                <img className="imging" src="alumni.jpg" alt="electronics"  />
+                <img className="imging" src="fourth (2).jpg" alt="electronics"  />
                     
             </div>
         </div>
