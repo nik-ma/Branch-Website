@@ -6,8 +6,8 @@ function Herosection() {
         <>
         {/* var imageUrl=["/competitions","/competitions","/competitions","/competitions"];
         var imageLinks=["background.jpg","robot.jpg","contact.jpg","alumni.jpg"] */}
-
-        <video src='video-2.mp4'  autoPlay loop muted />
+        
+        <video src='video.mp4'  autoPlay loop muted />
         <div className="heroContainer">
 
         
