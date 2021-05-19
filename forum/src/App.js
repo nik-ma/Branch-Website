@@ -19,10 +19,11 @@ function App() {
           <Route path='/' exact component={Herosection}/>
           <Route path='/competitions' component={competitions}/>
           <Route path='/Hostel' component={Hostel}></Route>
+          <Route path='/Events' component={Events}></Route>
         </Switch>
         
       </Router>
-      <Events/>
+      
       <Footer/>
     
     </>

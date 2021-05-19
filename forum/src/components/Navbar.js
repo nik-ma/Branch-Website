@@ -64,11 +64,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/Events'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Almuni Network
+                News and Events
               </Link>
             </li>
             <li className='nav-item'>
