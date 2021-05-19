@@ -1,0 +1,102 @@
+.footer{
+    padding-top:5rem;
+    margin-bottom: 0rem;
+    
+}
+.inner-footer{
+    padding-top: 20px;
+    background-color: #0e0202;
+    
+    
+    
+}
+.social-links{
+    
+    display: flex;
+}
+.social-links ul{
+    display: flex;
+    width: 600px;
+    height: 30px;
+    margin:auto;
+    list-style: none;
+}
+.social-items{
+    
+    list-style: none;
+}
+.social-items1 a{
+    list-style: none;
+    padding:10px 40px;
+    font-size: 45px;
+    color: white;
+    transition:  all 0.5s;
+   
+}
+.social-items2 a{
+    padding:10px 40px;
+    font-size: 45px;
+    color: white;
+    transition:  all 0.5s;
+
+}
+.social-items3 a{
+    padding:10px 40px;
+    font-size: 45px;
+    color: white;
+    transition:  all 0.5s;
+}
+.social-items4 a{
+    padding:10px 40px;
+    font-size: 45px;
+    color: white;
+    transition:  all 0.5s;
+}
+.social-items5 a{
+    padding:10px 40px;
+    font-size: 45px;
+    color: white;
+    transition:  all 0.5s;
+}
+
+
+.social-items1 a :hover{
+    color: #3b5998;
+    
+    
+}
+.social-items2 a :hover{
+    color: #00acee;
+}
+.social-items3 a :hover{
+    color:  #ac3354;
+}
+.social-items4 a :hover{
+    color: #0077b5;
+}
+.social-items5 a :hover{
+    color: #e2211b;
+}
+#image1{
+    padding-top: 10px;
+    text-align:left;
+    padding-left: 80px;
+    padding-bottom: 10px;
+
+}
+#image2{
+    padding-top: 10px;
+    float:right;
+    padding-right: 80px;
+    padding-bottom: 10px;
+
+}
+.outer-footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    
+    background-color: #3f3f3f;
+}
+

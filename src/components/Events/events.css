@@ -1,0 +1,90 @@
+
+.event-container{
+    min-width: 220px;
+    max-width: 650px;
+    border: 3px solid rgb(172, 168, 168);
+    margin: 25%;  
+    padding: 10px;
+    text-align: center;
+    min-height: 50px;
+    border-radius: 25px;
+    
+    
+}
+.event-container:hover{
+
+    border: 4px ridge linear-gradient(rgb(86, 193, 212), rgb(28, 13, 114));;
+}
+
+
+.blur-effect
+{  
+    border: #323299 solid 3px;
+    border-radius: 6px;
+    border-radius: 5px 5px 5px;
+    text-align: center;
+    filter: blur(4px);
+    
+
+}
+.event-header-text
+{
+    border-radius: 6px;
+    border-bottom: #4b4bad solid 3px;
+    color: rgb(10, 10, 10);
+    text-decoration: dashed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    
+}
+.event-text-container 
+{
+    background-blend-mode: color-burn;
+    padding-left: 2px;
+    margin: 4px;
+    color: #b8bdb8;
+    overflow: hidden;
+    text-align: left;
+
+}
+.event-text-container p
+{
+   height: 20px;
+   border-bottom: #8a97db solid 2px;
+
+}
+.event-text-container p:hover
+{
+    color: rgb(235, 235, 235);
+    
+}
+
+
+.css-selector {
+    border-radius: 6px;
+    height:100%;
+    width: 100%;
+    background: linear-gradient(270deg,#bec2d6, #8a97db, #4e77e9, #b77bf0);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
