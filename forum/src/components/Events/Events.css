@@ -1,0 +1,70 @@
+.event-container
+{   background-image: url("./bgimage.jpg");
+    background-blend-mode: darken;
+    margin: auto;
+    max-width: 600px;
+    min-height: 200px;
+    border: rgb(175, 174, 174) solid 3px;
+    border-radius: 25px;
+    text-align: center;
+    overflow: auto;
+    
+}
+.event-header-container{
+    height: 30px;
+    width:auto;
+    padding-bottom:8px;
+    margin:4px;
+}
+.filter-blur{
+    background-color: #4e1fbb;
+    filter: blur(25px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.event-header{
+    height: 20px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background: linear-gradient(-45deg, #342899, #cb3ce7, #c93f78, #bde2d9);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.event-list{
+    margin: 4px;
+    padding: 2px;
+    text-align: left;
+    overflow: auto;
+   
+}
+.event-list:hover{
+    cursor: pointer;
+}
+.event-list p{
+    border-bottom: #4e1fbb solid 2px;
+    font-size: large;
+    font-weight: 300;
+    font:inherit;
+    color: rgb(3, 3, 3);
+}
+.event-list p:hover{
+    font-weight: 400;
+    font-size: larger;
+}

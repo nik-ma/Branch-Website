@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Herosection from './components/Herosection';
 import competitions from './components/pages/competitions.js';
 import Footer from './components/Footer';
+import Events from './components/Events/Events'
 function App() {
   return (
     <>
@@ -19,7 +20,7 @@ function App() {
         </Switch>
         
       </Router>
-      
+      <Events/>
       <Footer/>
     
     </>
