@@ -2,6 +2,7 @@ import React from 'react'
 import '../competitions.css'
 import '../Herosection.css'
 import {Link} from 'react-router-dom'
+// import {Hostel} from 'Hostel.js'
 function competitions() {
     return (
         <>
@@ -13,7 +14,7 @@ function competitions() {
         </div>
         <div className="Cards">
         <div className="CardItem">
-           <Link to='/competitions'> <img className="imaging1" src="background.jpg" alt="electronics"  /></Link>
+           <Link to='/Hostel'> <img className="imaging1" src="background.jpg" alt="electronics"  /></Link>
                 
         </div>
         <div className="CardItem">

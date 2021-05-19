@@ -18,9 +18,9 @@ function Footer() {
                        </ul>
                     </div>
                     <div class="logo">
-                       <img src="biet logo.png" id="image1"></img>
+                       <img src="biet lgo.png" id="image1"></img>
                        
-                       <img src="logo.jpg" id="image2"></img>
+                       <img src="logo.pg" id="image2"></img>
                        
                     </div>
                 </div>

@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Herosection from './components/Herosection';
 import competitions from './components/pages/competitions.js';
 import Footer from './components/Footer';
+import Hostel from './components/pages/Hostel.js'
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Herosection}/>
           <Route path='/competitions' component={competitions}/>
+          <Route path='/Hostel' component={Hostel}></Route>
         </Switch>
         
       </Router>
