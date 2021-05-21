@@ -1,0 +1,24 @@
+.textstyle{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    
+
+    width: 100%;
+}
+.eventname{
+    /* display: inline-block; */
+    border: 10px solid white;
+    width: fit-content;
+    
+}
+.content{
+   
+}
+.heading{
+    color: blanchedalmond;
+    font-size: 40px;
+    text-align: center;
+
+
+}

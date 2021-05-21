@@ -7,6 +7,7 @@ import competitions from './components/pages/competitions.js';
 import Footer from './components/Footer';
 import Hostel from './components/pages/Hostel.js'
 import Events from './components/Events/Events'
+import mystery from './components/pages/mystery';
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
           <Route path='/competitions' component={competitions}/>
           <Route path='/Hostel' component={Hostel}></Route>
           <Route path='/Events' component={Events}></Route>
+          <Route path='/mystery' component={mystery}></Route>
         </Switch>
         
       </Router>
