@@ -1,5 +1,6 @@
 .textstyle{
-    display: flex;
+    display: grid;
+    grid-row: 1;
     justify-content: center;
     /* flex-direction: column; */
     
@@ -14,6 +15,9 @@
 }
 .content{
    
+    border: 10px solid white;
+    width: 97.8%;
+    height: 50rem;
 }
 .heading{
     color: blanchedalmond;
@@ -21,4 +25,11 @@
     text-align: center;
 
 
+}
+.sidebar{
+    position: absolute;
+  left: auto;
+  width: 10rem;
+  height: 10rem;
+  border: 10px solid white;
 }
